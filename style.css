@@ -1,0 +1,231 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titillium-web-extralight {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.titillium-web-light {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.titillium-web-light-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.titillium-web-bold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    background-color: #000000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00ff88;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #17740048;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #00ff88
+}
+
+/* Estilo do Cabeçalho */
+header {
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #868686;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #8fff80;
+}
+
+/* Estilo do Topo do Site*/
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1 {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #00ff15;
+    font-size: 40px;
+
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/*ESTILO DAS ESPECIALIDADES*/
+
+section.especialidades {
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 8px #ffffff85;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #00ff15;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+
+}
